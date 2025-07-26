@@ -74,15 +74,7 @@ def info():
 
 # Encodes and scales input, then predicts
 def predict_price(X):
-    # categorical_cols = ['city', 'street', 'statezip']
-    # numerical_cols = [col for col in X.columns if col not in categorical_cols]
-
-    # preprocessor = ColumnTransformer(
-    #     transformers=[
-    #         ('cat', OneHotEncoder(sparse_output=False, handle_unknown='ignore'), categorical_cols),
-    #         ('num', StandardScaler(), numerical_cols)
-    #     ]
-    # )
+    
 
     X_processed = preprocessor.transform(X)
     print(f"Processed input: {X_processed}")
