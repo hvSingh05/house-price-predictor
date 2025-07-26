@@ -28,7 +28,7 @@ numerical_cols = ['bedrooms', 'bathrooms', 'sqft_living', 'sqft_lot', 'floors',
 
 @app.route("/", methods=["GET", "POST"])
 def info():
-    predicted_price = None  # Default
+    predicted_price = 0  # Default
 
     if request.method == "POST":
         # Get form data

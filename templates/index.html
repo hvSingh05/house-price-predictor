@@ -42,9 +42,10 @@
 	<div class="mb-3">
 		<h1>The price is ${{ predicted_price }}</h1>
 	</div>
+	<a href="/" class="btn btn-secondary ms-2">Clear</a>
 	{% endif %}
 	<!-- Form for house price prediction -->
-    <form action="/" method="POST">
+    <form action="/" method="POST" autocomplete="off">
       <div class="mb-3">
         <label for="sqft_living" class="form-label">Living Area(in sqft)</label>
         <input
@@ -214,6 +215,8 @@
       </div>
 
       <button type="submit" class="btn btn-primary">Predict Price</button>
+	  
+
     </form>
 
 
