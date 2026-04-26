@@ -1,14 +1,12 @@
 # House Price Prediction 🏠
 
 ## Overview 
-This project focuses on predicting house prices using machine learning techniques based on various features such as location, area, number of bedrooms, and amenities. The goal is to build a reliable regression model that can estimate property prices with high accuracy.
+This project focuses on predicting house prices using machine learning techniques based on various features such as location, area, number of bedrooms, and amenities. The goal is to build a reliable regression model that can estimate property prices with good accuracy.
 
 ## Objectives 🎯
 - Perform data cleaning and preprocessing
 - Conduct exploratory data analysis (EDA)
 - Build and evaluate multiple regression models
-- Optimize model performance
-- Deploy or prepare for deployment (optional)
 
 
 ## Dataset 📊
@@ -38,7 +36,9 @@ This project focuses on predicting house prices using machine learning technique
    - Linear Regression
    - Decision Tree
    - Random Forest
-5. Model Evaluation (R² Score, MAE, RMSE)
+   - Gradient Boosting
+   - XGBoost 
+5. Model Evaluation (R² Score, RMSE)
 
 
 ## Results 📈
